@@ -1,0 +1,151 @@
+/*-----------------------------------*\
+
+	Toast
+	A Simple CSS Framework
+	=================================
+
+\*-----------------------------------*/
+
+/*-----------------------------------*\
+	$RESET
+\*-----------------------------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+/*-----------------------------------*\
+	$TYPE
+
+	Works off the assumption of a 1.5
+	line height @ 20px.
+\*-----------------------------------*/
+
+p, .p, ul, ol, hr, table, form, pre,
+h1, .alpha, h2, .beta {
+	margin-bottom: 30px;
+	margin-bottom: 1.5rem;
+}
+
+h1, .alpha {
+	color: white;
+	font-size: 60px;
+	font-size: 3rem;
+	font-weight: 700;
+	line-height: 1.5;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+h2, .beta {
+	font-size: 30px;
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 2;
+	font-weight: 700;
+}
+
+/*-----------------------------------*\
+	$MAIN
+\*-----------------------------------*/
+
+html {
+	font: 125%/1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+@media screen and (max-width: 650px) {
+	html {
+		font-size: 100%;
+	}
+}
+
+a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #9ab2bc;
+	text-align: center;
+	padding-top: 20px;
+	text-align: center;
+	margin: auto;
+}
+
+a:hover {
+	color: white;
+}
+
+.middle a {  
+  display: inline-block; 
+  padding: 5px 8px; 
+  border-radius: 4px; 
+  width: 200px; 
+  text-align: center;
+  position: absolute; 
+  bottom: 10%; 
+  left: 50%; 
+  margin-left: -100px;   
+  
+}
+
+.outer { 
+  display: table;  
+  width: 100%; 
+  /* height: 300px; -- use this if you want stuff under/above it */
+  height: 100%; /* use this if you never want user to scroll vertically */
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+  
+}
+
+.inner {
+  width: 50%;
+  margin: 0 auto;
+  background: #fff;
+  opacity: .5;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+
+#gifs {
+	background-color: #9ab2bc;
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+.cats {
+	border: 2px solid #fff;
+	min-width: 600px;
+}
+
+.ryder {
+	color: white;
+	margin-top: 15px;
+	text-align: center;
+}
+
+.bye {
+	background-color: #2e4d5a;
+	text-align: center;
+	padding: 200px 100px;
+}
+
+.foot {
+		padding: 10px 10px;
+		background-color: #1a1a1a;
+		text-align: center;
+		bottom: 0px;
+		position: fixed;
+		display: block;
+		width: 100%;
+}
+
+
+
